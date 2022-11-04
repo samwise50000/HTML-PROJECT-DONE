@@ -1,0 +1,127 @@
+body {
+    background-color: wheat;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    height: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+nav img {
+   width: 5em;
+   height: 5em; 
+   flex: 1;
+}
+
+.nav-image-div {
+    justify-content: flex-start;
+    float: left;
+}
+
+.nav-spacer-div {
+    flex: 2;
+}
+
+.nav-links-div{
+    justify-content: flex-end;
+    float: right;
+    flex: 1;
+    text-align: center;
+    line-height: 5em;
+}
+
+.nav-links-div div {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-links-div div a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.nav-links-div div a:hover{
+    color: black;
+    background-color: white;
+}
+
+.div-container {
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-color: beige;
+}
+
+.products-header-container {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.products-header h1 {
+    text-align: start;
+    margin-left: .5em;
+}
+
+.products-header img{
+    width: 100%;
+    height: 20em;
+    text-align: center;
+}
+
+.products-header p {
+    text-align: left;
+}
+
+.products {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.product {
+    width: 40%;
+    background-color: white;
+}
+
+.product h3 {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.product-image-container img {
+    width: 10em;
+    height: 10em;
+}
+
+.product-label {
+    color: #a0a0a0;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.product-info {
+    text-align: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #a0a0a0;
+}
+
