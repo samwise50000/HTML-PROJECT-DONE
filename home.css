@@ -61,9 +61,15 @@ nav img {
     justify-content: center;
 }
 
+.center-div div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .center-div img {
     height: 20em;
-    width: 80em;
 }
 
 h1 {
