@@ -1,6 +1,7 @@
 body {
     background-color: wheat;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
@@ -81,7 +82,7 @@ nav img {
 
 .products-header img{
     width: 100%;
-    height: 20em;
+    height: 100%;
     text-align: center;
 }
 
@@ -97,7 +98,6 @@ nav img {
 }
 
 .product {
-    width: 40%;
     background-color: white;
 }
 
@@ -106,16 +106,22 @@ nav img {
     margin-left: 1em;
 }
 
+.product-image-container {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .product-image-container img {
-    width: 10em;
-    height: 10em;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .product-label {
-    color: #a0a0a0;
+    color: black;
     font-size: 1em;
     text-align: left;
-    margin-left: 1em;
+    opacity: 0.71;
 }
 
 .product-info {
@@ -125,3 +131,8 @@ nav img {
     background-color: #a0a0a0;
 }
 
+@media (max-width: 800px) {
+    .products {
+        flex-direction: column;
+    }
+}
